@@ -1,0 +1,31 @@
+├── run_app.py
+├── pubtator_inference
+│   ├── app.py
+│   ├── auto_update.py
+│   ├── config.py
+│   ├── fetch_utils.py
+│   ├── file_utils.py
+│   ├── lime_interpret_sentences.py
+│   ├── model.py
+│   ├── ner_entity.py
+│   ├── parser_utils.py
+│   ├── predict.py
+│   ├── pub_inference.py
+│   └── Architecture.txt
+├── templates
+│   ├── article.html
+│   ├── footer.html
+│   ├── index.html
+│   ├── inference.html
+│   ├── lime_results.html
+│   ├── ner_entity.html
+│   ├── partial_results.html
+│   ├── result.html
+│   ├── search_inference.html
+│   └── variant.html
+└── static
+    ├── 35_img1.png
+    ├── 192px.svg
+    ├── logo2.png
+    ├── style.css
+    └── Visual_Studio_Code_1.35_icon.svg.png
