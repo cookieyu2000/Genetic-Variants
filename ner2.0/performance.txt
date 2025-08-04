@@ -1,0 +1,95 @@
+Test → accuracy: 0.9806, precision: 0.9053, F1: 0.9184, AUC: 0.9995
+
+Confusion Matrix per class:
+
+Label: O
+[[ 2963926   139763]
+ [  171935 15436630]]
+
+Label: B-gene
+[[18325457    29983]
+ [   19074   337740]]
+
+Label: B-disease
+[[18300715    22777]
+ [   29853   358909]]
+
+Label: B-chemical
+[[18460630    17260]
+ [   18499   215865]]
+
+Label: B-variant
+[[18603363     4044]
+ [    3143   101704]]
+
+Label: B-species
+[[18495324     8200]
+ [    9594   199136]]
+
+Label: B-cellline
+[[18696770     1411]
+ [    2274    11799]]
+
+Label: B-chromosome
+[[18709133      116]
+ [      60     2945]]
+
+Label: B-refseq
+[[18711949       62]
+ [       5      238]]
+
+Label: B-genomicregion
+[[18712220        6]
+ [       6       22]]
+
+Label: I-gene
+[[18229101    50386]
+ [   27576   405191]]
+
+Label: I-disease
+[[18225367    33466]
+ [   24889   428532]]
+
+Label: I-chemical
+[[18295513    27032]
+ [   29034   360675]]
+
+Label: I-variant
+[[18397359     9859]
+ [    6425   298611]]
+
+Label: I-species
+[[18515143    14826]
+ [   15662   166623]]
+
+Label: I-cellline
+[[18689025     2447]
+ [    3955    16827]]
+
+Label: I-chromosome
+[[18704713      181]
+ [      73     7287]]
+
+Label: I-refseq
+[[18710689      321]
+ [      46     1198]]
+
+Label: I-genomicregion
+[[18711998       37]
+ [      74      145]]
+
+Sequence-level Classification Report:
+               precision    recall  f1-score   support
+
+     cellline     0.8415    0.8046    0.8227     14073
+     chemical     0.8960    0.8960    0.8960    234364
+   chromosome     0.9551    0.9764    0.9656      3005
+      disease     0.9171    0.9059    0.9115    388762
+         gene     0.9063    0.9404    0.9230    357056
+genomicregion     0.5484    0.6071    0.5763        28
+       refseq     0.7350    0.9588    0.8321       243
+      species     0.9362    0.9348    0.9355    208730
+      variant     0.9471    0.9631    0.9550    104850
+
+    macro avg     0.8536    0.8874    0.8686   1311111
+ weighted avg     0.9151    0.9218    0.9183   1311111
